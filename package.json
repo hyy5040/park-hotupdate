@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "update":{
 	"version":"1.0.0",
-	"file":["index.html","inline.bundle.js","inline.bundle.js.map","main.bundle.js","main.bundle.js.map","polyfills.bundle.js","polyfills.bundle.js.map","styles.bundle.js","styles.bundle.js.map","vendor.bundle.js","vendor.bundle.js.map"],
+	"file":["dist/index.html","dist/inline.bundle.js","dist/inline.bundle.js.map","dist/main.bundle.js","dist/main.bundle.js.map","dist/polyfills.bundle.js","dist/polyfills.bundle.js.map","dist/styles.bundle.js","dist/styles.bundle.js.map","dist/vendor.bundle.js","dist/vendor.bundle.js.map"],
 	"detail":["测试下热更新"]
   },
   "license": "MIT",
