@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<link rel="stylesheet" href="./login.css">
+	<script type="text/javascript" src="../lib/md5.js"></script>
+	<script type="text/javascript" src="../lib/jquery.min.js"></script>
+	<script>if (typeof module === 'object') { window.jQuery = window.$ = module.exports; };</script>
+</head>
+
+<body>
+	<div class="imgbox" id="btn-close">
+		<img src="../img/close.png"/>
+	</div>
+	<div class="mainBody-title">
+		<b>登录</b>
+	</div>
+	<div class="mainBody-logPanel">
+		<input type="text" id="input-account" placeholder="用户账号/密码" value="13022222225" />
+		<input type="password" id="input-password" placeholder="请输入登录密码" value="123456" />
+		<button type="button" id="btn-login">登录</button>
+	</div>
+	<!-- <div class="bg_white wrapBox">
+		<div class="imgbox" id="btn-close">
+			<img src="../img/close.png" />
+		</div>
+
+		<div class="title">
+			<span>
+				<b>账户密码登录</b>
+			</span>
+		</div>
+		<div class="logPanel">
+			<input type="text" class="logPanel-account" placeholder="用户账号/密码" value="13022222225"/>
+			<input type="password" class="logPanel-password" placeholder="请输入登录密码" value="123456"/>
+			<button type="button" class="logPanel-login" id="btn-login">登录</button>
+		</div>
+	</div> -->
+</body>
+<script src="./login.js"></script>
+
+</html>

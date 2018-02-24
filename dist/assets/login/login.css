@@ -1,0 +1,144 @@
+.imgbox{
+    width: 40px;
+    height: 40px;
+    /* display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    position: absolute; */
+    position: absolute;
+    left:460px;
+}
+img{
+    transition: transform 0.5s;
+}
+img:hover{
+    transform: rotate(90deg);
+}
+.wrapBox{
+    width: 500px;
+	height: 420px;
+    display: inline-flex;
+	flex-flow: column nowrap;
+    align-items: center;
+}
+/* .title{
+	width: 124px+99+109;
+	height: 26px+47+25;
+	font-size: 18px;
+	font-family: "SimHei";
+	color: #E03612;
+	border-bottom: 1px #E03612 solid;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.title span{
+    padding-top: 25px;
+}
+.logPanel{
+	width: 329px;
+	color: #E03612;	
+}
+
+.logPanel-account,
+.logPanel-password{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	font-size: 18px;
+	color: #999999;	
+	margin-top: 34px;
+	border-radius: 3px;
+	border: solid 1px;
+}
+.logPanel-account:active,.logPanel-account:focus,
+.logPanel-password:active,.logPanel-password:focus{
+	border-style: solid;
+	outline: none;
+}
+.logPanel-login{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	font-family: "SimHei";
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #E03612;	
+	margin-top: 64px;
+	border-radius: 3px;
+	border: solid #E03612;	
+}
+.logPanel-login:active,.logPanel-login:focus,.logPanel-login:hover{
+	border-style: solid;
+	outline: none;
+	background-color: #D82A1A;	
+} */
+.mainBody-title {
+    -webkit-app-region: drag;
+    position: relative;
+    width: 124px;
+    height: 26px;
+    font-size: 26px;
+    font-family: "SimHei";
+    color: #E03612;
+    padding: 47px 99px 25px 99px;
+    border-bottom: 1px #E03612 solid;
+    margin-left: 84px;
+    text-align: center;
+}
+
+.mainBody-logPanel {
+    -webkit-app-region: drag;
+    position: relative;
+    width: 329px;
+    height: 26px;
+    color: #E03612;
+}
+
+#input-account,
+#input-password {
+    -webkit-app-region: no-drag;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    color: #999999;
+    margin-left: 84px;
+    margin-top: 34px;
+    border-radius: 3px;
+    border: solid 1px;
+}
+
+#input-account:active,
+#input-account:focus,
+#input-password:active,
+#input-password:focus {
+    border-style: solid;
+    outline: none;
+}
+
+#btn-login {
+    -webkit-app-region: no-drag;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    font-family: "SimHei";
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #E03612;
+    margin-left: 84px;
+    margin-top: 64px;
+    border-radius: 3px;
+    border: solid #E03612;
+}
+
+#btn-login:active,
+#btn-login:focus,
+#btn-login:hover {
+    border-style: solid;
+    outline: none;
+    background-color: #D82A1A;
+}
