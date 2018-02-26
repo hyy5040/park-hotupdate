@@ -2,7 +2,7 @@
   "name": "cloud-client-smartpark",
   "version": "2.0.0",
   "update":{
-	"version":"1.0.0",
+	"version":"2.0.0",
 	"file":["dist/index.html","dist/inline.bundle.js","dist/inline.bundle.js.map","dist/main.bundle.js","dist/main.bundle.js.map","dist/polyfills.bundle.js","dist/polyfills.bundle.js.map","dist/styles.bundle.js","dist/styles.bundle.js.map","dist/vendor.bundle.js","dist/vendor.bundle.js.map"],
 	"detail":["测试下热更新"]
   },
